@@ -1,0 +1,15 @@
+@media only screen and (max-width: 995px){
+    .main a{
+        font-size: 14px;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 618px){
+    #ul-center{
+        display: none;
+    }
+  
+}
