@@ -197,7 +197,7 @@ dl, ol, ul {
     transform: scale(0.8);
 }
 .top-product{
-    margin-top: 150px;
+    margin-top: 260px;
     padding: 50px;
 }
 .extra-row{
@@ -209,7 +209,7 @@ dl, ol, ul {
 
 .img--content{
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: #6A6869;
     color: #fff;
     padding:0 0 0 10px;
