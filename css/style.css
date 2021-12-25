@@ -192,6 +192,10 @@ dl, ol, ul {
 }
 
 /* Top Product section  */
+
+#Top-product img{
+    transform: scale(0.8);
+}
 .top-product{
     margin-top: 150px;
     padding: 50px;
