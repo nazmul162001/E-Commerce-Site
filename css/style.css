@@ -315,4 +315,31 @@ dl, ol, ul {
 }
 
 
-/* Expriment */
+                        /* Footer  */
+/* Icon  */
+
+.fa-facebook,
+.fa-linkedin-in,
+.fa-github {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.logo a{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+}
+
+.fa-facebook-f,
+.fa-phone-volume {
+    font-size: 38px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+
+.footer-content P{
+    font-weight: 700;
+}
