@@ -104,7 +104,56 @@ dl, ol, ul {
     padding: 25px;
 }
 
+/* Product Collection  */
+
+.card{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: .5s;
+}
+.card:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-140%, -50%);
+    transition: .8s;
+}
+
+.card:hover:after{
+    transform: translate(-50%, -50%);
+}
+
+
+.card .fa-shopping-cart{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-2000px, -50%);
+    color: #fff;
+    transition: .8s;
+    transition-timing-function: ease-in;
+}
+.card:hover .fa-shopping-cart{
+    transform: translate(100%, 20%);
+    transition-timing-function: ease;
+}
+.card .fa-shopping-cart{
+    font-size: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 50%;
+}
+
+
 /* Best selling Product  */
+
 #Best-selling{
     margin: 50px 0;
 }
@@ -190,3 +239,80 @@ dl, ol, ul {
     display: flex;
     column-gap: 20px;
 }
+
+
+/* Image Gallery  */
+
+.container-gallery{
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    padding: 2rem 0;
+    display: grid;
+    display: flex;
+    flex-wrap: now-wrap;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    overflow: hidden;
+    height: 300px;
+    width: 350px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 15px;
+    box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+    transition: .5s;
+    background-color: #555;
+}
+.image:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-140%, -50%);
+    background-color: rgba(6, 7, 6, 0.63);
+    border-radius: 50%;
+    transition: .8s;
+}
+
+.image:hover:after{
+    transform: translate(-50%, -50%);
+}
+
+/* Rotate image 20deg  */
+
+/* .image:hover img{
+    transform: translate(-50%, -50%) scale(1.3) rotate(20deg);
+} */
+
+.image img{
+    position: absolute;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .8s;
+}
+.image i{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-2000px, -50%);
+    color: #fff;
+    transition: .8s;
+    transition-timing-function: ease-in;
+}
+.image:hover i{
+    transform: translate(-50%, -50%);
+    transition-timing-function: ease;
+}
+
+
+/* Expriment */

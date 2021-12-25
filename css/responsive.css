@@ -30,4 +30,9 @@
     .img--content img {
         transform: scale(1);
     }
+    .container-gallery{
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
 }
