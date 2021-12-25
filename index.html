@@ -73,10 +73,6 @@
           <li class="nav-item">
             <a class="nav-link">Login</a>
           </li>
-          <!-- <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> -->
         </ul>
       </div>
     </div>
@@ -84,9 +80,10 @@
 
                 <!-- Hero section  -->
 
-  <div class="container-fluid hero-container orange-bg">
+  <div id="hero-section" class="container-fluid hero-container orange-bg">
     <div class="container">
-    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" data-interval="5000" data-pause="true">
+
+      <div class="carousel slide" id="demo" data-bs-ride="carousel">
 
                     <!-- indicators -->
         <!-- <div class="carousel-indicators" >
@@ -154,14 +151,16 @@
             </div>
           </div>
         </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+
+
+        <button class="carousel-control-prev " id="btnslidone" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" id="mostslid"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button> -->
+
+      <button class="carousel-control-next " id="btnslidtwo" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon" id="mostslid"></span>
+      </button>
+      </div>
       </div>
     </div>
 </div>   <!--END-->

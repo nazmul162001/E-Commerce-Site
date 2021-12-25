@@ -350,3 +350,26 @@ dl, ol, ul {
 .footer-content P{
     font-weight: 700;
 }
+
+#hero-section .carousel-control-prev,
+#hero-section .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    bottom: 30px !important;
+    top: auto;
+    opacity: 0.8;
+}
+#hero-section .carousel-control-prev{
+    left: 30px;
+}
+#hero-section .carousel-control-next{
+    left: calc(30px + 30px + 10px); /* 30px is margin, 30px is width of first one, & 10px is gap between both */
+}
+
+#hero-section .carousel-control-prev-icon,
+#hero-section .carousel-control-next-icon {
+    background-color: #f5b2ab;
+    border-radius: 50%;
+}
+
+
