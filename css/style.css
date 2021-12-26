@@ -57,7 +57,7 @@ dl, ol, ul {
 .main a{
     color: #000;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 }
 .icon-main{
     padding-right: 10px;
@@ -197,7 +197,7 @@ dl, ol, ul {
 /* Top Product section  */
 
 #Top-product img{
-    transform: scale(0.8);
+    transform: scale(0.5);
 }
 .top-product{
     margin-top: 15%;
@@ -373,3 +373,39 @@ dl, ol, ul {
 }
 
 
+/* slider Swipper  */
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .swiper-horizontal>.swiper-pagination-bullets, 
+  .swiper-pagination-bullets.swiper-pagination-horizontal, 
+  .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -7px;
+}
